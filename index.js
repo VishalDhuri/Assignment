@@ -2,7 +2,7 @@ npm install express body-parser pg
  dex-screener-ui
 const express = require('express');
 const bodyParser = require('body-parser');
-const db = require('./db'); // Your database connection
+const db = require('./db'); 
 
 const app = express();
 const PORT = process.env.PORT || 3001;
