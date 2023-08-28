@@ -1,0 +1,12 @@
+
+import React from 'react';
+
+const DataDisplay = ({ data }) => {
+  return (
+    <div>
+      {/* Display fetched data here */}
+    </div>
+  );
+};
+
+export default DataDisplay;
